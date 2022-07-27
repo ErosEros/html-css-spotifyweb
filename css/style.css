@@ -45,7 +45,10 @@ main {
 
 header {
     height: 60px;
-    background-color: yellow;
+    background-color: #080b12;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -55,7 +58,7 @@ header {
 
 footer {
     height: 60px;
-    background-color: grey;
+    background-color: #282828;
 }
 
 
@@ -186,4 +189,21 @@ hr {
 
 .name-playlist {
     padding-top: 10px;
+}
+
+/* header */
+.container-header {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.button-header {
+    color: white;
+    background-color: #080b12;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
