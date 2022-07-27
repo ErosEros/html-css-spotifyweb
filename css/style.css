@@ -1,0 +1,103 @@
+/* generics */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+/* flex-box */
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* web-app */
+.web-app {
+    background-color: red;
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+aside {
+    width: 15%;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    height: 80px;
+    background-color: yellow;
+}
+
+.container {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+footer {
+    height: 80px;
+    background-color: grey;
+}
+
+
+/* aside */
+
+.logo-large {
+    width: 75%;
+    padding: 10px 5px;
+}
+
+.home {
+    color: white;
+}
+
+.home>img {
+   width:20%;
+}
+
+.home>span {
+    padding: 5px;
+}
+
+.search {
+    color: grey;
+}
+
+.search>img {
+    width: 20%;
+}
+
+.search>span {
+    padding: 5px;
+}
+
+.library {
+    color: grey;
+}
+
+.library>img {
+    width: 20%;
+}
+
+.library>span {
+    padding: 5px;
+}
+
+.home-icons>div {
+    padding: 5px;
+}
+
