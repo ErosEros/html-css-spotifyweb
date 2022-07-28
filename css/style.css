@@ -392,7 +392,7 @@ hr {
 /* / media query for small */
 
 
-/* media questi for extra-small */
+/* media query for extra-small */
 
 @media screen and (max-width:552px) {
     .logo-l {
@@ -404,7 +404,7 @@ hr {
     }
 
     .logo-large {
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
 
@@ -436,15 +436,15 @@ hr {
     }
 
     .home>img {
-        width: 100%;
+        width: 80%;
     }
 
     .search>img {
-        width: 100%;
+        width: 80%;
     }
 
     .library>img {
-        width: 100%;
+        width: 80%;
     }
 
     .asside-box-1>h2 {
@@ -488,11 +488,11 @@ hr {
 
     .install>img {
         width: 50%;
-        margin-left: 8px;
+        margin-left: 5px;
     }
 
     .profile>img {
-        width: 100%;
+        width: 80%;
         background-color: #9e9e9e;
         clip-path: circle();
     }
@@ -507,4 +507,21 @@ hr {
     header {
         width: calc(100% - 50px);
     }
+
+    
+    .container-menu>a {
+        color: #9e9e9e;
+        font-size: 10px;
+        text-decoration: none;
+        width: calc(100% / 4 - 30px);
+        margin: 5px 15px;
+        text-align: center;
+        padding: 6px 0px;
+    }
+
+    .home-icons>div {
+        padding: 5px 10px;
+    }
+    
 }
+/* / media query for extra-small */
