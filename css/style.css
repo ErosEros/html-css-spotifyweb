@@ -33,7 +33,7 @@ body {
 }
 
 aside {
-    width: 20%;
+    width: 150px;
     background-color: black;
     flex-shrink: 0;
     justify-content: space-between;
@@ -45,10 +45,13 @@ main {
 
 header {
     height: 60px;
-    background-color: #080b12;
+    background-color: #000000;
     flex-direction: column;
     display: flex;
+    position: fixed;
     justify-content: center;
+    width: calc(100% - 150px);
+    opacity: 0.8;
 }
 
 .container {
@@ -66,8 +69,8 @@ footer {
 
 /* logo-large */
 .logo-large {
-    width: 50%;
-    padding: 10px 5px;
+    width: 60%;
+    padding: 10px;
 }
 
 /* home */
@@ -116,17 +119,13 @@ footer {
 
 /* adjustments aside */
 .home-icons>div {
-    padding: 0px 5px;
-}
-
-.home-icons {
-    padding-bottom: 10px;
+    padding: 0px 10px;
 }
 
 /* playlist */
 .asside-box-1>h2 {
     color: white;
-    padding:5px;
+    padding:10px;
     font-size: 12px;
 }
 
@@ -134,7 +133,7 @@ footer {
 .playlist {
     color: #9e9e9e;
     font-size: 25px;
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 
 .playlist>span {
@@ -144,7 +143,7 @@ footer {
 
 .name-playlist>span {
     color:#9e9e9e ;
-    padding: 8px 5px ;
+    padding: 8px 10px ;
     font-size: 10px;
 }
 
@@ -206,6 +205,8 @@ hr {
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid white;
+    opacity: none;
+    margin-right: 25px;
 }
 
 /* CONTENT */
@@ -218,6 +219,7 @@ hr {
 
 .container-menu {
     justify-content: center;
+    margin-top: 60px;
 }
 
 .title-first>h1 {
@@ -305,3 +307,51 @@ hr {
     margin-top: 25px;
     clip-path: circle();
 }
+
+
+/* media query for medium */
+@media screen and (max-width:878px) {
+    .container-menu {
+        justify-content: center;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+
+    .container-menu>a {
+        color: #9e9e9e;
+        font-size: 10px;
+        text-decoration: none;
+        width: calc(100% / 5 - 40px);      
+        margin: 5px 20px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .card-up {
+        width: calc(100% / 4 - 20px);
+        margin: 0px 10px;
+        flex-wrap: wrap;
+        /* display: flex; */
+        margin: 10px;
+    }
+
+    .first-tracks {
+        margin: 0px 15px;
+        flex-wrap: wrap;
+    }
+    
+    .card-circle {
+        width: calc(100% / 4 - 20px);
+        margin: 0px 10px;
+    }
+
+    .card-2 {
+        width: calc(100% / 4 - 20px);
+        margin: 0px 10px;
+    }
+}
+
+/* / media query for medium */
+
+
+
