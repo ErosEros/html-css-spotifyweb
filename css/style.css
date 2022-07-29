@@ -321,10 +321,6 @@ footer{
     
 }
 
-.box-footer-1 {
-    width: 30%;
-}
-
 .sinister-footer>img {
     width: 25%;
 }
@@ -363,7 +359,7 @@ footer{
 }
 
 .box-footer-1 {
-    width: 230px;
+    width: 18%;
     display: flex;
     justify-content: space-between;
 }
@@ -377,7 +373,7 @@ footer{
 }
 
 .box-footer-2 {
-    width: 50vw;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
@@ -423,7 +419,7 @@ footer{
 
 .box-footer-3 {
     align-items: center;
-    width: 230px;
+    width: 18%;
     justify-content: space-between;
 }
 
@@ -450,6 +446,7 @@ footer{
 .music-bar-3 {
     justify-content: space-between;
 }
+
 
 
 
@@ -491,6 +488,10 @@ footer{
 .install>span:hover {
     color: white;
     cursor: pointer;
+}
+
+.fa-circle-play:hover {
+    transform: scale(2);
 }
 
 /* media query for medium */
