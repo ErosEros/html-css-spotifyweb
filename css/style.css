@@ -312,6 +312,147 @@ hr {
     clip-path: circle();
 }
 
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.box-footer-1 {
+    width: 30%;
+}
+
+.sinister-footer>img {
+    width: 25%;
+}
+
+.sinister-text {
+    padding: 5px;
+}
+
+.sinister-text>h5 {
+    color: white;
+    font-size: 10px;
+}
+
+.sinister-text>span {
+    color: white;
+    font-size: 8px;
+}
+
+.icons-footer-box-1 {
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+
+.sinister-footer {
+    align-items: center;
+}
+
+.icons-footer-box-1>i {
+    padding: 0px 5px;
+}
+
+.container-footer {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box-footer-1 {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sinister-footer {
+    align-items: center;
+}
+
+.sinister-text {
+    padding: 10px;
+}
+
+.box-footer-2 {
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-footer-box-2 {
+    justify-content: space-between;
+    width: 200px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.bar-green {
+    border: 2px solid white;
+    background-color: white;
+    width: 80px;
+    border-radius: 10px;
+
+}
+
+.bar-gray {
+    border: 0.5px solid white;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.music-bar {
+    align-items: center;
+    padding-top: 15px;
+}
+
+.bar>span {
+    color: white;
+    font-size: 10px;
+    padding: 0px 10px;
+}
+
+.music-bar>span {
+    color: white;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.box-footer-3 {
+    align-items: center;
+    width: 230px;
+    justify-content: space-between;
+}
+
+.icons-footer-3>i {
+    font-size: 10px;
+    color: white;
+    padding: 0px 5px;
+}
+
+.bar-green-small {
+    border: 2px solid white;
+    background-color: white;
+    width: 40px;
+    border-radius: 10px;
+
+}
+
+.bar-gray-small {
+    border: 0.5px solid white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.music-bar-3 {
+    justify-content: space-between;
+}
+
+
+
 /* hover */
 .container-menu>a:hover {
     color: white;
@@ -351,7 +492,6 @@ hr {
     color: white;
     cursor: pointer;
 }
-
 
 /* media query for medium */
 @media screen and (max-width:878px) {
