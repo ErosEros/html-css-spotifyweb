@@ -85,6 +85,7 @@ footer {
 
 .home>img {
     width: 8%;
+    filter: contrast(0.5);
 }
 
 .home>span {
@@ -310,6 +311,46 @@ hr {
 .card-circle>img {
     margin-top: 25px;
     clip-path: circle();
+}
+
+/* hover */
+.container-menu>a:hover {
+    color: white;
+}
+
+
+.button-header:hover {
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.search:hover {
+    color: white;
+    cursor: pointer;
+} 
+
+.library:hover {
+    color: white;  
+    cursor: pointer;
+} 
+
+.playlist:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.name-playlist>span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.install>span {
+    color: white;
+    cursor: pointer;
 }
 
 
