@@ -380,22 +380,26 @@ footer{
 
 .icons-footer-box-2 {
     justify-content: space-between;
-    width: 200px;
+    width: 120px;
     color: white;
     flex-wrap: wrap;
 }
 
-.bar-green {
+.icons-footer-box-2>i {
+    font-size: 15px;
+}
+
+.bar-white {
     border: 2px solid white;
     background-color: white;
-    width: 80px;
+    width: 5vw;
     border-radius: 10px;
 
 }
 
 .bar-gray {
     border: 0.5px solid white;
-    width: 200px;
+    width: 15vw;
     border-radius: 10px;
 }
 
@@ -424,22 +428,22 @@ footer{
 }
 
 .icons-footer-3>i {
-    font-size: 10px;
+    font-size: 60%;
     color: white;
     padding: 0px 5px;
 }
 
-.bar-green-small {
+.bar-whitw-small {
     border: 2px solid white;
     background-color: white;
-    width: 40px;
+    width: 4vw;
     border-radius: 10px;
 
 }
 
 .bar-gray-small {
     border: 0.5px solid white;
-    width: 100px;
+    width: 8vw;
     border-radius: 10px;
 }
 
