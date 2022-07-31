@@ -322,7 +322,7 @@ footer{
 }
 
 .sinister-footer>img {
-    width: 25%;
+   width: 25px;
 }
 
 .sinister-text {
@@ -343,6 +343,10 @@ footer{
     color: white;
     align-items: center;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5px;
 }
 
 .sinister-footer {
@@ -350,7 +354,7 @@ footer{
 }
 
 .icons-footer-box-1>i {
-    padding: 0px 5px;
+    padding: 2px;
 }
 
 .container-footer {
@@ -359,13 +363,8 @@ footer{
 }
 
 .box-footer-1 {
-    width: 18%;
+    width: 20%;
     display: flex;
-    justify-content: space-between;
-}
-
-.sinister-footer {
-    align-items: center;
 }
 
 .sinister-text {
@@ -373,7 +372,7 @@ footer{
 }
 
 .box-footer-2 {
-    width: 50%;
+    width: 45%;
     align-items: center;
     justify-content: center;
 }
@@ -423,8 +422,8 @@ footer{
 
 .box-footer-3 {
     align-items: center;
-    width: 18%;
-    justify-content: space-between;
+    width: 20%;
+    justify-content: flex-end;
 }
 
 .icons-footer-3>i {
