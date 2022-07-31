@@ -238,8 +238,11 @@ hr {
 
 .card-up {
     width: calc(100% / 6 - 15px);
-    margin: 0px 10px;
+    margin: 0px 10px
+}
 
+.img-box-section {
+    position: relative;
 }
 
 .card-text-up>h2 {
@@ -257,6 +260,15 @@ hr {
 .card-text-up {
     align-items: center;
     text-align: center;
+}
+
+.play-img {
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 35px;
+    font-size: 80px;
+    display: none;
 }
 
 .title-second>span {
@@ -347,6 +359,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     padding: 0px 5px;
+    color: gray;
 }
 
 .sinister-footer {
@@ -493,8 +506,48 @@ footer{
     cursor: pointer;
 }
 
-.fa-circle-play:hover {
+.play-scale:hover {
     transform: scale(2);
+}
+
+.img-box-section:hover .play-img {
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-size: 300%;
+    display: block;
+    cursor: pointer;
+}
+
+.img-box-section:hover {
+    opacity: 0.5;
+}
+
+.bar-white:hover {
+    border: 2px solid #8bc34a;
+    background-color: #8bc34a;
+    width: 5vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bar-whitw-small:hover {
+    border: 2px solid #8bc34a;
+    background-color: #8bc34a;
+    width: 4vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fa-heart:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.fa-folder:hover {
+    color: white;
+    cursor: pointer;
 }
 
 /* media query for medium */
